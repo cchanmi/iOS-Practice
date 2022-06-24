@@ -60,7 +60,10 @@
 		4A22ED222865B859009635BD = {
 			isa = PBXGroup;
 			children = (
-				4A22ED2D2865B859009635BD /* iOS-Practice */,
+				4A22ED492865C040009635BD /* DataPassing */,
+				4A22ED422865B884009635BD /* Resource */,
+				4A22ED372865B85B009635BD /* Assets.xcassets */,
+				4A22ED3C2865B85B009635BD /* Info.plist */,
 				4A22ED2C2865B859009635BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,18 +74,6 @@
 				4A22ED2B2865B859009635BD /* iOS-Practice.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4A22ED2D2865B859009635BD /* iOS-Practice */ = {
-			isa = PBXGroup;
-			children = (
-				4A22ED492865C040009635BD /* DataPassing */,
-				4A29D2632865D2A700C9E98C /* New Group */,
-				4A22ED422865B884009635BD /* Resource */,
-				4A22ED372865B85B009635BD /* Assets.xcassets */,
-				4A22ED3C2865B85B009635BD /* Info.plist */,
-			);
-			path = "iOS-Practice";
 			sourceTree = "<group>";
 		};
 		4A22ED422865B884009635BD /* Resource */ = {
@@ -115,7 +106,8 @@
 				4A22ED512865C366009635BD /* First.storyboard */,
 				4A22ED532865C39F009635BD /* FirstViewController.swift */,
 			);
-			path = DataPassing;
+			name = DataPassing;
+			path = "iOS-Practice/DataPassing";
 			sourceTree = "<group>";
 		};
 		4A22ED4A2865C12F009635BD /* Property */ = {
@@ -134,13 +126,6 @@
 				4A29D2662865D2E000C9E98C /* DelegatePatternViewController.swift */,
 			);
 			path = DelegatePattern;
-			sourceTree = "<group>";
-		};
-		4A29D2632865D2A700C9E98C /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		4A29D2682865DC9300C9E98C /* Notification */ = {
