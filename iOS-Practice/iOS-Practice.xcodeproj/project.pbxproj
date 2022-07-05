@@ -14,6 +14,10 @@
 		4A22ED382865B85B009635BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A22ED372865B85B009635BD /* Assets.xcassets */; };
 		4A22ED3B2865B85B009635BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A22ED392865B85B009635BD /* LaunchScreen.storyboard */; };
 		4A73BBDF286F2275003AEBC4 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A779781286EEEC60052E990 /* Lottie.storyboard */; };
+		4A73BBE228719BCF003AEBC4 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A73BBE128719BCF003AEBC4 /* Navigation.storyboard */; };
+		4A73BBE428719BD9003AEBC4 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73BBE328719BD9003AEBC4 /* NavigationViewController.swift */; };
+		4A73BBE628719BF7003AEBC4 /* SecondNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A73BBE528719BF7003AEBC4 /* SecondNavigation.storyboard */; };
+		4A73BBE828719C04003AEBC4 /* SecondNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73BBE728719C04003AEBC4 /* SecondNavigationViewController.swift */; };
 		4A779780286EEEBF0052E990 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A77977F286EEEBF0052E990 /* LottieViewController.swift */; };
 		4A779786286F1F9D0052E990 /* 110238-melt.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A779785286F1F9D0052E990 /* 110238-melt.json */; };
 		E2A6157E659FF80E5008BBCF /* Pods_iOS_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F438966C8698E9DAB671DD17 /* Pods_iOS_Practice.framework */; };
@@ -28,6 +32,10 @@
 		4A22ED372865B85B009635BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A22ED3A2865B85B009635BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A22ED3C2865B85B009635BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A73BBE128719BCF003AEBC4 /* Navigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
+		4A73BBE328719BD9003AEBC4 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		4A73BBE528719BF7003AEBC4 /* SecondNavigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondNavigation.storyboard; sourceTree = "<group>"; };
+		4A73BBE728719C04003AEBC4 /* SecondNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNavigationViewController.swift; sourceTree = "<group>"; };
 		4A77977F286EEEBF0052E990 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		4A779781286EEEC60052E990 /* Lottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
 		4A779785286F1F9D0052E990 /* 110238-melt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "110238-melt.json"; sourceTree = "<group>"; };
@@ -68,6 +76,7 @@
 		4A22ED222865B859009635BD = {
 			isa = PBXGroup;
 			children = (
+				4A73BBE028719BBB003AEBC4 /* Navigation */,
 				4A77977E286EEEB30052E990 /* Lottie */,
 				4A22ED3C2865B85B009635BD /* Info.plist */,
 				4A22ED422865B884009635BD /* Resource */,
@@ -104,6 +113,17 @@
 				4A22ED392865B85B009635BD /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4A73BBE028719BBB003AEBC4 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4A73BBE128719BCF003AEBC4 /* Navigation.storyboard */,
+				4A73BBE328719BD9003AEBC4 /* NavigationViewController.swift */,
+				4A73BBE528719BF7003AEBC4 /* SecondNavigation.storyboard */,
+				4A73BBE728719C04003AEBC4 /* SecondNavigationViewController.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		4A77977E286EEEB30052E990 /* Lottie */ = {
@@ -176,9 +196,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A73BBE228719BCF003AEBC4 /* Navigation.storyboard in Resources */,
 				4A22ED3B2865B85B009635BD /* LaunchScreen.storyboard in Resources */,
 				4A22ED382865B85B009635BD /* Assets.xcassets in Resources */,
 				4A22ED362865B859009635BD /* Main.storyboard in Resources */,
+				4A73BBE628719BF7003AEBC4 /* SecondNavigation.storyboard in Resources */,
 				4A73BBDF286F2275003AEBC4 /* Lottie.storyboard in Resources */,
 				4A779786286F1F9D0052E990 /* 110238-melt.json in Resources */,
 			);
@@ -236,6 +258,8 @@
 				4A22ED332865B859009635BD /* ViewController.swift in Sources */,
 				4A779780286EEEBF0052E990 /* LottieViewController.swift in Sources */,
 				4A22ED2F2865B859009635BD /* AppDelegate.swift in Sources */,
+				4A73BBE428719BD9003AEBC4 /* NavigationViewController.swift in Sources */,
+				4A73BBE828719C04003AEBC4 /* SecondNavigationViewController.swift in Sources */,
 				4A22ED312865B859009635BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,7 +412,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Lottie;
+				INFOPLIST_KEY_UIMainStoryboardFile = Navigation;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -416,7 +440,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Lottie;
+				INFOPLIST_KEY_UIMainStoryboardFile = Navigation;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
