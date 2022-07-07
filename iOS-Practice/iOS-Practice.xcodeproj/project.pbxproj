@@ -20,6 +20,13 @@
 		4A73BBE828719C04003AEBC4 /* SecondNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A73BBE728719C04003AEBC4 /* SecondNavigationViewController.swift */; };
 		4A779780286EEEBF0052E990 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A77977F286EEEBF0052E990 /* LottieViewController.swift */; };
 		4A779786286F1F9D0052E990 /* 110238-melt.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A779785286F1F9D0052E990 /* 110238-melt.json */; };
+		4AC84D9B28769C01008FECEB /* SnapkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC84D9A28769C01008FECEB /* SnapkitViewController.swift */; };
+		4AC84D9D28769C0B008FECEB /* Snapkit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC84D9C28769C0B008FECEB /* Snapkit.storyboard */; };
+		4ACF8B572873FB9100CDE05D /* TextViewAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF8B562873FB9100CDE05D /* TextViewAnimation.storyboard */; };
+		4ACF8B592873FB9D00CDE05D /* TextViewAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF8B582873FB9D00CDE05D /* TextViewAnimationViewController.swift */; };
+		4ACF8B5B28744CD600CDE05D /* LabelAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF8B5A28744CD600CDE05D /* LabelAnimationViewController.swift */; };
+		4ACF8B5D28745E1E00CDE05D /* TextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF8B5C28745E1E00CDE05D /* TextLabel.swift */; };
+		4ACF8B5F287468F400CDE05D /* textLabelDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF8B5E287468F400CDE05D /* textLabelDataModel.swift */; };
 		E2A6157E659FF80E5008BBCF /* Pods_iOS_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F438966C8698E9DAB671DD17 /* Pods_iOS_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +46,13 @@
 		4A77977F286EEEBF0052E990 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		4A779781286EEEC60052E990 /* Lottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
 		4A779785286F1F9D0052E990 /* 110238-melt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "110238-melt.json"; sourceTree = "<group>"; };
+		4AC84D9A28769C01008FECEB /* SnapkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapkitViewController.swift; sourceTree = "<group>"; };
+		4AC84D9C28769C0B008FECEB /* Snapkit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Snapkit.storyboard; sourceTree = "<group>"; };
+		4ACF8B562873FB9100CDE05D /* TextViewAnimation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextViewAnimation.storyboard; sourceTree = "<group>"; };
+		4ACF8B582873FB9D00CDE05D /* TextViewAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewAnimationViewController.swift; sourceTree = "<group>"; };
+		4ACF8B5A28744CD600CDE05D /* LabelAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelAnimationViewController.swift; sourceTree = "<group>"; };
+		4ACF8B5C28745E1E00CDE05D /* TextLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLabel.swift; sourceTree = "<group>"; };
+		4ACF8B5E287468F400CDE05D /* textLabelDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textLabelDataModel.swift; sourceTree = "<group>"; };
 		7390E3783F4D6D756276DCB4 /* Pods-iOS-Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Practice.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Practice/Pods-iOS-Practice.debug.xcconfig"; sourceTree = "<group>"; };
 		DCE0A1F5C842ECB93B30A3CD /* Pods-iOS-Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Practice.release.xcconfig"; path = "Target Support Files/Pods-iOS-Practice/Pods-iOS-Practice.release.xcconfig"; sourceTree = "<group>"; };
 		F438966C8698E9DAB671DD17 /* Pods_iOS_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +90,8 @@
 		4A22ED222865B859009635BD = {
 			isa = PBXGroup;
 			children = (
+				4AC84D9928769BF1008FECEB /* Snapkit */,
+				4ACF8B552873FA4C00CDE05D /* Animation */,
 				4A73BBE028719BBB003AEBC4 /* Navigation */,
 				4A77977E286EEEB30052E990 /* Lottie */,
 				4A22ED3C2865B85B009635BD /* Info.plist */,
@@ -129,11 +145,32 @@
 		4A77977E286EEEB30052E990 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				4A779785286F1F9D0052E990 /* 110238-melt.json */,
 				4A77977F286EEEBF0052E990 /* LottieViewController.swift */,
 				4A779781286EEEC60052E990 /* Lottie.storyboard */,
 			);
 			path = Lottie;
+			sourceTree = "<group>";
+		};
+		4AC84D9928769BF1008FECEB /* Snapkit */ = {
+			isa = PBXGroup;
+			children = (
+				4AC84D9A28769C01008FECEB /* SnapkitViewController.swift */,
+				4AC84D9C28769C0B008FECEB /* Snapkit.storyboard */,
+			);
+			path = Snapkit;
+			sourceTree = "<group>";
+		};
+		4ACF8B552873FA4C00CDE05D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4A779785286F1F9D0052E990 /* 110238-melt.json */,
+				4ACF8B562873FB9100CDE05D /* TextViewAnimation.storyboard */,
+				4ACF8B582873FB9D00CDE05D /* TextViewAnimationViewController.swift */,
+				4ACF8B5A28744CD600CDE05D /* LabelAnimationViewController.swift */,
+				4ACF8B5C28745E1E00CDE05D /* TextLabel.swift */,
+				4ACF8B5E287468F400CDE05D /* textLabelDataModel.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +236,8 @@
 				4A73BBE228719BCF003AEBC4 /* Navigation.storyboard in Resources */,
 				4A22ED3B2865B85B009635BD /* LaunchScreen.storyboard in Resources */,
 				4A22ED382865B85B009635BD /* Assets.xcassets in Resources */,
+				4AC84D9D28769C0B008FECEB /* Snapkit.storyboard in Resources */,
+				4ACF8B572873FB9100CDE05D /* TextViewAnimation.storyboard in Resources */,
 				4A22ED362865B859009635BD /* Main.storyboard in Resources */,
 				4A73BBE628719BF7003AEBC4 /* SecondNavigation.storyboard in Resources */,
 				4A73BBDF286F2275003AEBC4 /* Lottie.storyboard in Resources */,
@@ -257,8 +296,13 @@
 			files = (
 				4A22ED332865B859009635BD /* ViewController.swift in Sources */,
 				4A779780286EEEBF0052E990 /* LottieViewController.swift in Sources */,
+				4ACF8B592873FB9D00CDE05D /* TextViewAnimationViewController.swift in Sources */,
 				4A22ED2F2865B859009635BD /* AppDelegate.swift in Sources */,
+				4AC84D9B28769C01008FECEB /* SnapkitViewController.swift in Sources */,
+				4ACF8B5B28744CD600CDE05D /* LabelAnimationViewController.swift in Sources */,
+				4ACF8B5F287468F400CDE05D /* textLabelDataModel.swift in Sources */,
 				4A73BBE428719BD9003AEBC4 /* NavigationViewController.swift in Sources */,
+				4ACF8B5D28745E1E00CDE05D /* TextLabel.swift in Sources */,
 				4A73BBE828719C04003AEBC4 /* SecondNavigationViewController.swift in Sources */,
 				4A22ED312865B859009635BD /* SceneDelegate.swift in Sources */,
 			);
@@ -412,7 +456,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Navigation;
+				INFOPLIST_KEY_UIMainStoryboardFile = Snapkit;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,7 +484,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Navigation;
+				INFOPLIST_KEY_UIMainStoryboardFile = Snapkit;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
